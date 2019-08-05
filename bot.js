@@ -38,7 +38,7 @@ client.on('message', message => {
       for (var i = 0; i < 10; i++) {
           var randomNum = Math.floor(Math.random() * 9) + 1;
           switch(randomNum) {
-            case 1: message.channel.send("t1 alpha as fuck"); break;
+            case 1: message.channel.send("t1 alpha af"); break;
             case 2: message.channel.send("AHHHHHHHH OK"); break;
             case 3: message.channel.send("<:dvon_surprised:416759603511164928>"); break;
             case 4: message.channel.send("y u frame"); break;
@@ -64,7 +64,7 @@ client.on('message', message => {
         message.channel.send(JSON.stringify(result, null, 2));
         });
     }
-    else if (message.content === 'nigga ping Hien') {
+    else if (message.content === 'ping Hien') {
         message.channel.send("<@!359822312905768965> ayo wus poppin in ya hood");
     }
     else if (message.content === 'What do you think, Memes?') {
@@ -74,8 +74,6 @@ client.on('message', message => {
             case 2: message.channel.send("No"); break;
             case 3: message.channel.send("Hell No"); break;
             case 4: message.channel.send("Hell Yea"); break;
-            case 5: message.channel.send("Hell no nigga"); break;
-            case 6: message.channel.send("Hell yea nigga"); break;
           }
     }
 });
